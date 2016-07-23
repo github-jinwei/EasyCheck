@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15C50" minimumToolsVersion="Xcode 7.0">
+    <entity name="ClassList" syncable="YES">
+        <attribute name="classId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="classNames" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="classNote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HistoryDetailModel" syncable="YES">
+        <attribute name="attendance" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="classId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hisDetailId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="historyId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="stuId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="stuNames" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stuNote" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HistoryModel" syncable="YES">
+        <attribute name="classId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="classNames" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="historyId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="StatisticsModel" syncable="YES">
+        <attribute name="absence" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="attent" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="classId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="leave" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="statisticsId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="statisticsTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="stuId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="stuNames" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="StudentModel" syncable="YES">
+        <attribute name="classId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="stuId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="stuNames" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stuNote" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stuNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stuPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="stuSex" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ClassList" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="HistoryDetailModel" positionX="-63" positionY="63" width="128" height="150"/>
+        <element name="HistoryModel" positionX="-63" positionY="45" width="128" height="105"/>
+        <element name="StatisticsModel" positionX="-54" positionY="81" width="128" height="165"/>
+        <element name="StudentModel" positionX="-63" positionY="9" width="128" height="150"/>
+    </elements>
+</model>

@@ -12,6 +12,10 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+/**
+ *  @brief  初始化Navigationbar的样式
+ */
+- (void)initializationAppearStyle;
 
 @end
 
